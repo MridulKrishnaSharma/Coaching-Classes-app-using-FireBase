@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/noticeBoardFragment"
+            android:icon="@drawable/ic_baseline_notifications_active_24"
+            android:title="@string/Notice_Bord"
+            android:menuCategory="secondary"
+            />
+
+
+        <item
+            android:id="@+id/nav_teachersDetail"
+            android:icon="@drawable/ic_baseline_cast_for_education_24"
+            android:title="@string/menu_slideshow"
+            android:menuCategory="secondary"
+            />
+    </group>
+
+    <item android:title="@string/upcoming"
+        android:menuCategory="secondary"
+        >
+        <menu>
+            <item android:id="@+id/test"
+                android:title="@string/online_test"
+                android:menuCategory="secondary"
+                />
+            <item android:id="@+id/studyMaterial"
+                android:title="@string/study_materials"
+                android:menuCategory="secondary"
+                />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

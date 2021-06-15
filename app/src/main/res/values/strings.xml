@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Coaching Classes</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">Profile_Image</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Notice Board</string>
+    <string name="menu_slideshow">Teachers</string>
+    <string name="upcoming">UpComing</string>
+    <string name="online_test">Online Test</string>
+    <string name="study_materials">Study Materials</string>
+    <string name="action_settings">Setting</string>
+    <string name="notificationCollection">notificationCollection</string>
+    <string name="usersCollection">users</string>
+    <string name="Home">Home</string>
+    <string name="Teachers">Teachers</string>
+    <string name="Notice_Bord">Notice Board</string>
+    <string name="user_Details_sp">user_Details_sp</string>
+
+    <string name="teachers_name">Teacher Name</string>
+    <string name="Teachers_Bio">"Think Out of Box to reach at top of the box"</string>
+
+
+    <string name="class_collections">classes</string>
+
+
+</resources>

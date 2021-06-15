@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.knowledge.coachingclasses.mainFragment.classListFragment"
+        android:label="@string/Home"
+        tools:layout="@layout/fragment_class_list" />
+
+    <fragment
+        android:id="@+id/nav_teachersDetail"
+        android:name="com.knowledge.coachingclasses.mainFragment.Teachers_Detail_Fragment"
+        android:label="@string/Teachers"
+        tools:layout="@layout/fragment_teachers__detail" />
+    <fragment
+        android:id="@+id/noticeBoardFragment"
+        android:name="com.knowledge.coachingclasses.mainFragment.NoticeBoardFragment"
+        android:label="@string/Notice_Bord"
+        tools:layout="@layout/fragment_notice_board" />
+
+
+    <!--    <fragment-->
+<!--        android:id="@+id/nav_noticeBoard"-->
+<!--        android:name="coachingclassesclasses.mainFragment.NoticeBoardFragment"-->
+<!--        android:label="Notice Board"-->
+<!--        tools:layout="@layout/fragment_notice_board" >-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_teachersDetail"-->
+<!--        android:name="coachingclassesclasses.mainFragment.teachersDetailFragment"-->
+<!--        android:label="Know Your Teachers"-->
+<!--        tools:layout="@layout/fragment_teachers_detail" />-->
+
+</navigation>

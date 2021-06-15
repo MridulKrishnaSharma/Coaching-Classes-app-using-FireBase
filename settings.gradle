@@ -1,0 +1,2 @@
+rootProject.name = "Coaching Classes"
+include ':app'

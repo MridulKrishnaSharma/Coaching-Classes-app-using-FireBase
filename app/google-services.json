@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501530546372",
+    "project_id": "knowledge-blinkers",
+    "storage_bucket": "knowledge-blinkers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501530546372:android:0fa5cebd3801548b9d3991",
+        "android_client_info": {
+          "package_name": "com.knowledge.blinkers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501530546372-57r45j1tsjhjt2e8ekifcvd259qdkcje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrx_OMvnb6qPUHRGqwoHFqj0x7IxC_SHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501530546372-57r45j1tsjhjt2e8ekifcvd259qdkcje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
